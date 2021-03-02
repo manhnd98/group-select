@@ -14,7 +14,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@acomici/select-group": ["libs/select-group/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
